@@ -1,0 +1,11 @@
+const String logintitle = "Sign In";
+const String name = "Name";
+const String email= "Email";
+const String password="Password";
+const String confirmPassword = "ConfirmPassword";
+const String forgetPassword ="Forget Password ?";
+const String loginButton ="Sign in" ;
+const String registrationButton = "Sign Up";
+const String createNewAccount = "Create New Account ? Sign up";
+const String registrationtitle = "Sign Up";
+const String logOut = "Log Out";
