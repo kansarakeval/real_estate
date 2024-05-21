@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
+import 'package:real_estate/screen/explore/view/explore_screen.dart';
 import 'package:real_estate/screen/home/view/home_screen.dart';
 import 'package:real_estate/screen/profile/view/profile.dart';
 import 'package:real_estate/util/color.dart';
@@ -17,7 +18,7 @@ class DashScreen extends StatefulWidget {
 class _DashScreenState extends State<DashScreen> {
   List<Widget> screen = [
     const HomeScreen(),
-    const HomeScreen(),
+    const ExploreScreen(),
     const HomeScreen(),
     const ProfileScreen(),
   ];

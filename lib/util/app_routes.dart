@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:real_estate/screen/add/view/add_screen.dart';
 import 'package:real_estate/screen/dash/view/dash_screen.dart';
+import 'package:real_estate/screen/detail/view/detail_screen.dart';
 import 'package:real_estate/screen/home/view/home_screen.dart';
 import 'package:real_estate/screen/intro/view/intro_screen.dart';
 import 'package:real_estate/screen/profile/view/profile.dart';
@@ -15,4 +17,6 @@ Map<String,WidgetBuilder> app_routes={
   'home':(context) => const HomeScreen(),
   'dash':(context) => const DashScreen(),
   'profile':(context) => const ProfileScreen(),
+  'detail':(context) => const DetailScreen(),
+  'add':(context) => const AddScreen(),
 };

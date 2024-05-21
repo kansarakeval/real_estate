@@ -1,6 +1,5 @@
 class HomeModel {
-  int? id, price;
-  String? name, image, email, mobile, rating, city, description;
+  String? name, image, email, mobile, rating, city, description,id, price;
 
   HomeModel(
       {this.id,
@@ -14,7 +13,6 @@ class HomeModel {
       this.description});
 
   factory HomeModel.mapToModel(Map m1) {
-    print('Email:========== ${m1['email']}');
     return HomeModel(
         id: m1['id'],
         price: m1['price'],

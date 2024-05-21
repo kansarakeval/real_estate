@@ -9,3 +9,6 @@ GoogleFonts.robotoSlab(fontSize: 14);
 
 TextStyle text15 =
 GoogleFonts.robotoSlab(fontSize: 15);
+
+TextStyle textBold18 =
+GoogleFonts.robotoSlab(fontSize: 18,fontWeight: FontWeight.bold);
