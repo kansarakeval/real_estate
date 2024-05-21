@@ -25,21 +25,6 @@ class APIHelper {
   }
 
   //insert Api
-  // Future<void> addApi(String name, image, email, mobile, rating, city,
-  //     description, price) async {
-  //   var apiLink = "http://192.168.2.11/real%20estate/api/addapi.php";
-  //   var response = await http.post(Uri.parse(apiLink),
-  //       body: {"image": image,
-  //     "city": city,
-  //     "description": description,
-  //     "email": email,
-  //     "mobile": mobile,
-  //     "name": name,
-  //     "price": price,
-  //     "rating": rating
-  //   });
-  // }
-
   Future<void> addApi(
       String name,
       String imagePath,
@@ -55,12 +40,12 @@ class APIHelper {
     try {
       var request = http.MultipartRequest('POST', Uri.parse(apiLink));
 
-      var imageFile = File(imagePath);
-      if (!imageFile.existsSync()) {
-        throw Exception("http://192.168.2.11/real%20estate/images/");
-      }
+      // var imageFile = File(imagePath);
+      // if (!imageFile.existsSync()) {
+      //   throw Exception("http://192.168.2.11/real%20estate/images/");
+      // }
 
-      var imageLength = await imageFile.length();
+      // var imageLength = await imageFile.length();
       request.files.add(await http.MultipartFile.fromPath(
         'image',
         imagePath,
