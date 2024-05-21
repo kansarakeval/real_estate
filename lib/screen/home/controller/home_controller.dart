@@ -10,4 +10,11 @@ class HomeController extends GetxController{
     List<HomeModel>? list = await APIHelper.apiHelper.homeApi();
     homeList.value = list;
   }
+
+  Future<void> getDelete(String id) async {
+
+    await APIHelper.apiHelper.deleteApi(id);
+    gethome();
+  }
+
 }

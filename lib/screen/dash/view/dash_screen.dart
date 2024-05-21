@@ -18,7 +18,7 @@ class DashScreen extends StatefulWidget {
 class _DashScreenState extends State<DashScreen> {
   List<Widget> screen = [
     const HomeScreen(),
-    const ExploreScreen(),
+    ExploreScreen(),
     const HomeScreen(),
     const ProfileScreen(),
   ];

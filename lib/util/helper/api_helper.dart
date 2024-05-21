@@ -73,4 +73,13 @@ class APIHelper {
       print('Exception caught: $e');
     }
   }
+
+  //delete Api
+  Future<void> deleteApi(String id) async {
+    String deleteLink = "http://192.168.2.11/real%20estate/api/deleteapi.php";
+    await http.post(Uri.parse(deleteLink), body: {
+      "id": id,
+    });
+  }
+
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:real_estate/screen/add/view/add_screen.dart';
+import 'package:real_estate/screen/city%20home/view/city_home_screen.dart';
 import 'package:real_estate/screen/dash/view/dash_screen.dart';
 import 'package:real_estate/screen/detail/view/detail_screen.dart';
 import 'package:real_estate/screen/home/view/home_screen.dart';
