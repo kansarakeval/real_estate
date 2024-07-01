@@ -30,7 +30,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image.network(
-                    "http://192.168.2.11/real%20estate/images/${m1.image}",
+                    "http://192.168.1.34/real%20estate/images/${m1.image}",
                     width: double.infinity,
                     fit: BoxFit.cover,
                   ),

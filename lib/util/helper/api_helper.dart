@@ -11,7 +11,7 @@ class APIHelper {
 
   //read Api
   Future<List<HomeModel>?> homeApi() async {
-    var apiLink = "http://192.168.2.11/real%20estate/api/viewapi.php";
+    var apiLink = "http://192.168.1.34/real%20estate/api/viewapi.php";
     var response = await http.get(Uri.parse(apiLink));
 
     if (response.statusCode == 200) {
@@ -35,7 +35,7 @@ class APIHelper {
       String description,
       String price,
       ) async {
-    var apiLink = "http://192.168.2.11/real%20estate/api/addapi.php";
+    var apiLink = "http://192.168.1.34/real%20estate/api/addapi.php";
 
     try {
       var request = http.MultipartRequest('POST', Uri.parse(apiLink));
@@ -76,7 +76,7 @@ class APIHelper {
 
   //delete Api
   Future<void> deleteApi(String id) async {
-    String deleteLink = "http://192.168.2.11/real%20estate/api/deleteapi.php";
+    String deleteLink = "http://192.168.1.34/real%20estate/api/deleteapi.php";
     await http.post(Uri.parse(deleteLink), body: {
       "id": id,
     });
