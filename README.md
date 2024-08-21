@@ -1,19 +1,14 @@
-# real_estate
+# Real Estate
 
 A new Flutter project.
 
 ## Getting Started
+- PHP - API
+- Localhost
+- CRUD
+- State Managemet - GetX
+- phpMyAdmin
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 <p>
   <img src="https://github.com/kansarakeval/real_estate/assets/119046853/3f3b5767-8f6c-481b-8abb-adb90b74c953" hight="450" width="180">
   <img src="https://github.com/kansarakeval/real_estate/assets/119046853/bd691ed8-2c4d-47d0-bf43-e3eaca053f99" hight="450" width="180">
